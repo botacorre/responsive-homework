@@ -1,0 +1,26 @@
+/* Default mobile view */
+div {
+    width: 100%;
+    display: block;
+  }
+  
+  /* Media Query #1: Tablet View at 772px */
+  @media (min-width: 772px) {
+    div {
+      width: 45vw;
+      display: inline-block;
+      vertical-align: top;
+    }
+  
+    img {
+      max-height: 30vh;
+    }
+  }
+  
+  /* Media Query #2: Large Screen View at 998px */
+  @media (min-width: 998px) {
+    div {
+      width: 30vw;
+    }
+  }
+  
